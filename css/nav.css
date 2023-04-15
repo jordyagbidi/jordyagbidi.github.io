@@ -1,0 +1,67 @@
+/*Importaciones */
+/*Importar variables*/
+@import url("var.css");
+
+/*Estilo de Menu de navegación*/
+
+
+/*Clase que indica al menu que sea fija y se quede en la parte superior del body*/
+.stickyMenu{
+    top: 0px;
+    position: fixed;
+}
+
+/*Boton de menu*/
+.optMenu{
+    display: inline-block;
+    margin: 5px;
+    font-weight:bold;
+    cursor: pointer;
+    padding: 8px;
+    text-align: center;
+    color: var(--colorWhite);
+    transition: 1s background, 0.5s border;
+    font-size: var(--txtSizeNav);
+    font-family: var(--txtFamilyImpact);
+    
+}
+
+.optMenu:hover{
+    border-bottom: 3px solid var(--colorWhite);
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+.displayMenu{
+    display: none;
+}
+.displayerMenu{
+    display: block;
+}
+
+
+/*MEDIA QUERY*/
+@media(max-width:460px) {
+ 
+    .optMenu{
+        font-size: var(--txtSizeMediaQNav);
+    }
+}
+
+
+@media(max-height:400px) {
+    .optMenu{
+        font-size: var(--txtSizeMediaQNav);
+    }
+
+}
+
+@media(max-width:920px) {
+    .displayMenu{
+        display: block;
+    }
+    .displayerMenu{
+        display: none;
+    }
+
+}

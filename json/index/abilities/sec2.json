@@ -1,0 +1,99 @@
+{
+    "id": 2,
+    "nameSection": "Herramientas <br> Audiovisuales",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "descripcion":"Este json permitira desplegar mi lista de habilidades cargarndo asi unicamente el html necesario en la dom de mi web",
+    "habilidades": [
+        {
+            "content": [
+                {
+                    "section": "Sistemas operativos",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/ubuntu.png",
+                                "alt": "Ubuntu Desktop logo"
+                            },
+                            "name": "Ubuntu Desktop",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/ubuntu.png",
+                                "alt": "Ubuntu Desktop logo"
+                            },
+                            "name": "Ubuntu Server",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/microsoft.png",
+                                "alt": "Microsoft Desktop logo"
+                            },
+                            "name": "Microsoft Desktop",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/microsoft.png",
+                                "alt": "Microsoft Server logo"
+                            },
+                            "name": "Microsoft Server",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        }
+                    ]
+                },
+                {
+                    "section": "Terminal",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/bash.png",
+                                "alt": "Bash logo"
+                            },
+                            "name": "Bash Linux",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/cmd.png",
+                                "alt": "cmd logo"
+                            },
+                            "name": "Cmd",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/PowerShell.png",
+                                "alt": "Php logo"
+                            },
+                            "name": "PowerShell",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        }
+                    ]
+                },
+                {
+                    "section": "Suites Office",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/LibreOffice.png",
+                                "alt": "LibreOffice logo"
+                            },
+                            "name": "Libre Office",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/microsoftoffice.png",
+                                "alt": "microsoftoffice"
+                            },
+                            "name": "Microsoft Office",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+/*Importaciones */
+/*Importar fuentes de letras*/
+@import url("fonts.css");
+:root{
+    /*Colores*/
+    --colorWhite:#fbfbff;
+    --colorYellow1: #ffa400;
+    --colorRed1: #c41e3d;
+    --colorBlue1: #009ffd;
+    --colorBlack1: #040f16;
+
+    /*Degradados*/
+    --redGradient: linear-gradient(90deg,#870c23 0%, #c41e3d 29%,#7e0a20 100%);
+    --blueGradient: linear-gradient(90deg, rgba(112,202,255,1) 0%, rgba(12,125,191,1) 29%, rgba(0,159,253,1) 100%);
+
+    /* --blueGradient: linear-gradient(90deg, rgb(13, 154, 83) 0%, rgb(2, 91, 13) 29%, rgb(1, 76, 17) 100%); */
+
+    
+    --yellowGradient: linear-gradient(90deg,#f9b536 0%, #f5a107 29%,#bb7d0b 100%);
+
+    /*font size*/
+    --txtSizeBase: 16px;
+    --txtSizep: 1.3em;
+    --txtSizeH1: 5em;
+    --txtSizeH2: 1.7em;
+    --txtSizeH3: 2.5em;
+    --txtSizeH4: 2em;
+    --txtSizeH5: 1.5em;
+    --txtSizeNav: 1.3em;
+    --txtSizeHover: 1.1em;
+    --txtSizeHability: 1.6em;
+    /*font size media query*/
+    --txtSizeMediaQH1: 4.1em;
+    --txtSizeMediaQH2: 1.2em;
+    --txtSizeMediaQH3: 2em;
+    --txtSizeMediaQH4: 1.5em;
+    --txtSizeMediaQNav: 1.1em;
+
+
+    /*font family*/
+    --txtFamily: "Times New Roman", Times, serif;
+    --txtFamilyImpact: "bank";
+    --txtFamilyH1: "font3d";
+    --txtFamilyH2: "retro";
+    --txtFamilyFooter: "barcode";
+
+    /*Border radius*/
+    --borderRadiusMinim: 5px;
+    --borderRadiusMedium: 10px;
+    --borderRadiusBig: 20px;
+    --borderRadiusMaxim: 60px;
+
+    /*Interlineado basico*/
+    --interLinearp: 30px;
+
+
+    /*Backgrounds*/
+    --headerImg: url("../media/img/0.jpg");
+    --headerColor: #040f16b1;
+    --navShadow: 2px 2.5px 5px rgba(0, 0, 0, 0.935);
+    --navColor: linear-gradient(90deg, rgba(112,202,255,1) 0%, rgba(12,125,191,1) 29%, rgba(0,159,253,1) 100%);
+   
+    /*Imagenes y fondo proyectos*/
+    --proyectsImg: url("../media/img/0.jpg");
+    --proyectsBackground: #fbfbffee;
+    
+    /*images shadows*/
+    --imgShadow: 2px 1px 2px rgba(0, 0, 0, 0.342);
+    /*button shadow*/
+    --buttonShadow: 1px 2px 4px rgba(0, 0, 0, 0.553);
+     /*button shadow*/
+     --boxShadow: 1px 2px 3px rgba(0, 0, 0, 0.653);
+
+
+
+    /*Opacity background*/
+    --opacityBlack: #1a0307d0;
+
+}

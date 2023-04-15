@@ -1,0 +1,39 @@
+{
+    "nameSection": "Aplicaciones webs",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "autor": "Jordy Marion Houidji Agbidi",
+    "description":"Este json conforma el registro de proyectos que permitira desplegar mis proyectos sin sobre cargar el DOM DE ELEMENTOS",
+    "registroProyectos":[
+        {
+            "id":0,
+            "titulo":"Esta misma web",
+            "subtitulo":  "Mi portfolio",
+            "portada":{
+                "src":"./../media/img/00.jpg",
+                "alt":""
+            },
+            "fecha": "20/03/2023",
+            "descripcion":  "Esta pagina web la he desarrollado yo mediante las tecnología html, css y javascript, todo con la finalidad de practicar y tener un sitio donde publicar mis avances y nuevos aprendizajes.",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[
+                {
+                    "src":""
+                }
+            ],
+            "button":["","#"]
+                    
+
+        }
+        
+    ]
+
+}

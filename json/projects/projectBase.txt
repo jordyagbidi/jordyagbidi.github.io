@@ -1,0 +1,126 @@
+{
+    "nameSection": "Aplicaciones webs",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "autor": "Jordy Marion Houidji Agbidi",
+    "description":"Este json conforma el registro de proyectos que permitira desplegar mis proyectos sin sobre cargar el DOM DE ELEMENTOS",
+    "registroProyectos":[
+        {
+            "id":0,
+            "titulo":"Esta misma web",
+            "subtitulo":  "mi porfolio",
+            "portada":{
+                "src":"./../media/img/00.jpg",
+                "alt":""
+            },
+            "fecha": "05/02/2023",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[
+                {
+                    "src":""
+                }
+            ],
+            "button":["nameButton","url"]
+                    
+
+        },
+        {
+            "id":1,
+            "titulo":"Esta es mi misma web",
+            "subtitulo":  "hhhhhhhh hhhhhh",
+            "portada":{
+                "src":"./../media/img/00.jpg",
+                "alt":"bhnjj"
+            },
+            "fecha":"05/02/2023",
+            "autor":"",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[
+                {
+                    "src":""
+                }
+            ],
+            "button":["nameButton","url"]
+        },
+        {
+            "id":1,
+            "titulo":"Esta es mi misma web",
+            "subtitulo":  "hhhhhhhh hhhhhh",
+            "portada":{
+                "src":"./../media/img/00.jpg",
+                "alt":"bhnjj"
+            },
+            "fecha":"05/02/2023",
+            "autor":"",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[
+                {
+                    "src":""
+                }
+            ],
+            "button":["nameButton","url"]
+        },
+        {
+            "id":1,
+            "titulo":"Esta es mi misma web",
+            "subtitulo":  "hhhhhhhh hhhhhh dhdhdhdhdhd dhddhdhd dhdhdhd dgdgd",
+            "portada":{
+                "src":"./../media/img/00.jpg",
+                "alt":"bhnjj"
+            },
+            "fecha":"05/02/2023",
+            "autor":"",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[
+                {
+                    "src":""
+                },
+                {
+                    "src":""
+                }
+            ],
+            "button":["nameButton","url"]
+        }
+        
+    ]
+
+}

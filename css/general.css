@@ -1,0 +1,291 @@
+/*Importaciones */
+/*Importar fuentes de letras*/
+ @import url("fonts.css"); 
+ /*Importar variables*/
+ @import url("var.css");
+
+
+/*Configuracion general de la pagina*/
+*{
+    padding: 0px;
+    margin: 0px;
+    /*Establecemos medida de letra base*/
+    font-size: var(--txtSizeBase);
+    /*Tipos de letra texto*/
+    font-family: var(--txtFamily)
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/*
+Establecemos las medidas basicas de los elementos padres principales
+*/
+header{
+   
+    background-image: var(--headerImg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 80vh;
+    transition: all 1.2s linear;
+
+}
+
+/*Filtro de fondo*/
+header div{
+    width: 100%;
+    height: 100%;
+    background-color: var(--headerColor);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*Panel navegador*/
+nav{  
+    top: 0px;
+    position: sticky;
+    text-align: center;
+    width: 98%;
+    height:auto;
+    padding: 5px 1%;
+    box-shadow: var(--navShadow);
+    background: var(--navColor);
+    z-index: 2;
+}
+
+nav span{
+    cursor: pointer;
+}
+
+/*Imagen Perfil*/
+header img{
+    position:absolute;
+    margin: 30px;
+    width: 110px;
+    height: 110px;
+    border-radius: var(--borderRadiusMaxim);
+    border: 6px solid var(--colorYellow1);
+    box-shadow: 1px 2px 5px var(--colorBlue1);
+}
+
+
+/*titulos*/
+h1{
+    text-align: center;
+    font-family: var(--txtFamilyH1);
+    font-size: var(--txtSizeH1);
+    color: var(--colorWhite);
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px var(--colorWhite);
+}
+
+/*Titulo header*/
+h2{
+    display: inline;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    font-size: var(--txtSizeH2);
+   
+    font-family: var(--txtFamilyH2);;
+    color: var(--colorYellow1);
+    /* text-shadow: 1px 2px 1px var(--colorRed1); */
+} 
+
+
+
+/*Titulo de secciones*/
+h3{
+    font-family: var(--txtFamilyH2);
+    font-size: var(--txtSizeH3);
+    color: var(--colorYellow1);
+    text-shadow: 1px 2px 3px var(--colorRed1);
+    padding: 20px;
+}
+
+
+
+/*Subtitulo de seccion*/
+h4{
+    padding: 20px;
+ 
+    font-size: var(--txtSizeH4);
+    border-bottom: 3px solid var(--colorBlack1);
+    margin: 30px 0px 30px 0px;
+    text-align: left;
+    text-align: center;
+    box-shadow: 0 0px 3px var(--colorBlack1);
+    border: 2px dashed var(--colorBlack1);
+    font-family: var(--txtFamilyImpact);
+
+}
+
+h5{
+    font-size: var(--txtSizeH5);
+    /* text-shadow: -2px 2px 1px var(--colorBlack1);
+    color: var(--colorWhite); */
+    padding: 5px;
+    font-family: var(--txtFamilyImpact);
+    /* border: 2px dashed var(--colorBlack1); */
+}
+
+h6{
+    font-size: var(--txtSizeH5);
+    text-shadow: -2px 2px 1px var(--colorBlack1);
+    color: var(--colorWhite);
+    padding: 5px;
+    font-family: var(--txtFamilyImpact); 
+}
+
+.boxService h6{
+    font-size: var(--txtSizeH5);
+    text-shadow: -2px 2px 1px var(--colorBlack1);
+    color: var(--colorBlue1);
+    padding: 5px;
+    font-family: var(--txtFamilyImpact); 
+}
+/* Configuracion basica para los paragrafos*/
+p, .section1 p{
+    line-height: var(--interLinearp);
+    text-align: justify;
+}
+
+/*Secciones *//*index*/
+/*Seccion Sobre mi*/
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+/*Seccion conf basica*/
+section{
+    padding: 3%;
+}
+
+/*Pie de pagina*/
+footer .author{
+    font-family: var(--txtFamilyFooter);
+    color: black;
+    font-size: 5em;
+    margin: 20px;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    transition: 1s color;
+
+}
+
+
+footer{
+    width: 100%;
+}
+
+.footerdata{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.footerdata a{
+    font-family: var(--txtFamilyImpact);
+    color: var(--colorBlack1);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s color;
+}
+
+.rrssfooter{
+    width: auto;
+}
+.rrssfooter img{
+    border-radius: var(--borderRadiusMedium);
+    display: inline-block;
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+    margin: 10px 0px;
+    cursor: pointer;
+    box-shadow: var(--boxShadow);
+}
+
+.footerdata a:hover{
+    color: var(--colorRed1);
+}
+footer .author:hover{
+    color: var(--colorBlue1);
+}
+
+
+/*MEDIA QUERY*/
+@media(min-width:800px){
+    .section1{
+        flex-direction: row;
+        align-items: unset;
+    }
+    .section1 p{
+        width: 40%;
+    }
+    
+}
+
+@media(min-height:700px){
+    header{
+        height: 45vh;
+    }
+}
+
+@media(max-width:460px) {
+    .rrssfooter{
+        width: 80%;
+    }
+
+    h1{
+        font-size: var(--txtSizeMediaQH1);
+    }
+    h2{
+        font-size: var(--txtSizeMediaQH2);
+    }
+    h3{
+        font-size: var(--txtSizeMediaQH3);
+    }
+    h4{
+        font-size: var(--txtSizeMediaQH4);
+    }
+
+
+}
+
+@media(max-height:400px) {
+    h1{
+        font-size: var(--txtSizeMediaQH1);
+    }
+    h2{
+        font-size: var(--txtSizeMediaQH2);
+    }
+    h3{
+        font-size: var(--txtSizeMediaQH3);
+    }
+    h4{
+        font-size: var(--txtSizeMediaQH4);
+    }
+
+}
+
+@media(max-width:745px) {
+    header img{
+        display: none;
+    }
+}

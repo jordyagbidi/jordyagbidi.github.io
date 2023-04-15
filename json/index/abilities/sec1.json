@@ -1,0 +1,92 @@
+{
+    "id": 1,
+    "nameSection": "Herramientas Audiovisuales",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "descripcion":"Este json permitira desplegar mi lista de habilidades cargarndo asi unicamente el html necesario en la dom de mi web",
+    "habilidades": [
+        {
+            "content": [
+                {
+                    "section": "Diseño Grafico",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/photoshop.png",
+                                "alt": "Html logo"
+                            },
+                            "name": "Adobe Photoshop",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/ilustrator.png",
+                                "alt": "Ilustrator logo"
+                            },
+                            "name": "Adobe Ilustrator",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/photopea.png",
+                                "alt": "photopea logo"
+                            },
+                            "name": "Photopea",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/gimp.png",
+                                "alt": "photopea logo"
+                            },
+                            "name": "Gimp",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        }
+                        
+                    ]
+                },
+                {
+                    "section": "Edición de video",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/premiere.png",
+                                "alt": "Premiere logo"
+                            },
+                            "name": "Adobe Premiere",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/vegas.png",
+                                "alt": "Sony Vegas logo"
+                            },
+                            "name": "Sony Vegas",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        }
+                    ]
+                },
+                {
+                    "section": "Producción Musical",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/flstudio.png",
+                                "alt": "Fruity loops logo"
+                            },
+                            "name": "FL Studio",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/cubase.png",
+                                "alt": "Cubase logo"
+                            },
+                            "name": "Cubase",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

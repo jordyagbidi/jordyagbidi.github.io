@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Metadados-->
+    <meta charset="UTF-8">
+    <meta name="Author" content="Jordy Agbidi">
+    <meta name="keywords" content="">
+    <meta neam="description" content="">
+    <!--Media query-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordy Agbidi</title>
+
+    <!--Link con CSS-->
+    <link rel="stylesheet" type="text/css" href="css/indexSections.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+
+    <!--Link con icon-->
+    <link rel="icon" type="image/png" href="media/icon/icon.png">
+
+</head>
+
+<body>
+    <div id="jamhmingbox"></div>
+    <!--Cabecera o panel bienvenida-->
+    <header id="header">
+        <img src="media/img/perfil.png" alt="perfil_jordyagbidi">
+        <div>
+            <h1>Jordy M. H. Agbidi</h1>
+            <h2 id="iam">Desarrollador Web</h2>
+        </div>
+
+
+    </header>
+    <nav id="navbar">
+    <!-- <span class="optMenu displayMenu">MENU</span>
+    <div class="displayerMenu">
+        <span class="optMenu" id="inicio">Inicio</span>
+        <span class="optMenu" id="sobremi">Sobre mi</span>
+        <span class="optMenu" id="habilidades">Habilidades</span>
+        <span class="optMenu" id="proyectos">Proyectos</span>
+        <span class="optMenu" id="servicios">Servicios</span>
+        <span class="optMenu" id="contacto">Contacto</span>
+
+    </div> -->
+    </nav>
+    <section id="sec0">
+        <h3>Sobre mi</h3>
+        <div class="section1">
+            <p></p>
+            <img class="imgprofile" src="./media/img/perfil.png" alt="boy_image">
+
+        </div>
+    </section>
+    <section id="sec1">
+        <h3>Habilidades</h3>
+        <div class="section2">
+            <!--Menu habilidades-->
+            <div class="menuSec2">
+                <span class="menuSec2selected">Tecnologias Web</span>
+                <!-- <span>Informática</span> -->
+                <span>Herramientas<br> Audiovisuales</span>
+                <span>Otros</span>
+            </div>
+
+            <!--habilidades-->
+            <!--Habilidades web-->
+            <!--Las esta seccion sera generada mediante javascript-->
+        </div>
+    </section>
+
+
+    <footer>
+
+        <div class="footerdata">
+            <div class="rrssfooter">
+                <a target="_blank" href="https://www.instagram.com/jordyagbidi/"><img src="./media/img/footer/instagram.png" alt="instagram"></a>
+                <a  target="_blank" href="https://www.youtube.com/channel/UCBLEO1vW8f5EpBjmOYPjHuA"><img src="./media/img/footer/youtube.png" alt="youtube"></a>
+                <a  target="_blank" href="https://www.linkedin.com/in/jordy-agbidi-08642a262/"><img src="./media/img/footer/linkedin.png" alt="linkedin"></a>
+                <a  target="_blank" href="https://github.com/jordyagbidi"><img src="./media/img/footer/github.png" alt="github"></a>
+            </div>
+            <a href="./pages/politicas.html">Politicas de privacidad</a>
+            <div class="author">
+                 Jordy M. H. Agbidi
+            </div>
+            <script>
+                document.querySelector(".author").onclick = ()=>{
+                    alert("Este sitio web ha sido desarrollada de arriba por Jordy M. H. Agbidi")
+                }
+            </script>
+        </div>
+    </footer>
+
+
+    <!--Script cabecera-->
+    <script src="js/indexHeader.js"></script>
+    <!--Script seccion habilidades-->
+    <script src="js/indexSecHability.js"></script>
+
+
+    <!-- <script src="./jamhming/index.js" type="module"></script> -->
+
+    <script src="js/index.js" type="module"></script>
+
+    <!-- este script impide que se copie el contenido de la web y su funcion se ejectu en index js-->
+    <script src="js/preventCopy.js"></script>
+
+    <script src="js/menu.js"></script>
+
+
+
+</body>
+
+</html>

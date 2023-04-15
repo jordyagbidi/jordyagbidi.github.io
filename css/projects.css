@@ -1,0 +1,127 @@
+/*Importaciones */
+/*Importar fuentes de letras*/
+@import url("fonts.css"); 
+/*Importar variables*/
+@import url("var.css");
+
+
+.containerBoxPro{
+    margin: 10px;
+    width: 28%;
+    display: inline-block;
+}
+
+.boxPro{
+    width: auto;
+    padding: 25px;
+    border-radius: var(--borderRadiusBig);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.562);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--proyectsBackground);
+   
+}
+.boxPro h5, .boxPro p, .boxPro button{
+    margin: 10px;
+}
+.boxPro p,.boxPro h5{
+    text-align: center;
+}
+
+.boxPro img{
+    width: 80%;
+    height: 80%;
+    box-shadow: var(--imgShadow);
+    border-radius: var(--borderRadiusMinim);
+}
+
+.boxPro button{
+    padding: 10px;
+    border-radius: var(--borderRadiusMedium);
+    cursor: pointer;
+    background: var(--redGradient);
+    box-shadow: var(--buttonShadow);
+    transition: 0.5s font-size;
+    color: var(--colorWhite);
+}
+
+.boxPro button:hover{
+    font-size: var(--txtSizeHover);
+    font-weight: bold;
+}
+
+
+section{
+    background-image: var(--proyectsImg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media(max-width:745px) {
+    .containerBoxPro{
+        width: 90%;
+    }
+}
+
+/* .bigfatherPro{
+    width: auto;
+    height: auto;
+}
+
+.containerPros{
+    width: 100%;
+    height: auto;
+}
+
+.boxPro{
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: auto;
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5% 3%;
+    box-shadow: 0px 3px 5px black;
+    background-image:url(../media/img/fondoSec3.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    border: 3px solid black; 
+
+    
+
+}
+
+.boxPro h4, .boxPro p{
+    padding: 15px;
+}
+
+
+.boxPro div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxPro button{
+    position:absolute;
+    right: 10px;
+    bottom: -39.99px;
+    padding: 10px;
+   
+    border-radius: 0px 0px 10px 10px;
+    border: 3px solid black; 
+
+    border-top: none;
+    color: white;
+    background-color: black;
+
+}
+
+.boxPro div img, .boxPro div p{
+    display: inline-block;
+} */

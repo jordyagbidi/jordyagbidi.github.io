@@ -1,0 +1,22 @@
+/*Fuentes de letras descargadas*/
+@font-face {
+    font-family: "font3d";
+    src: url(../fonts/font3d.ttf);
+  
+}
+
+@font-face {
+    font-family: "retro";
+    src: url(../fonts/Retro.ttf);
+  
+}
+
+@font-face {
+    font-family: "barcode";
+    src: url(../fonts/BarcodeFont.ttf);
+}
+
+@font-face {
+    font-family: "bank";
+    src: url(../fonts/bank.ttf);
+}

@@ -1,0 +1,42 @@
+/*Importaciones */
+/*Importar fuentes de letras*/
+@import url("fonts.css"); 
+/*Importar variables*/
+@import url("var.css");
+
+.servicesBox{
+    margin: 10px;
+    width: 45%;
+    display: inline-block;
+}
+
+.boxService{
+    /* display: inline-block;
+    width: 20em;
+    height: auto;
+    padding: 3em;
+    text-align: center;
+    box-shadow: var(--boxShadow);
+    font-family: var(--txtSizep);
+    background: var(--yellowGradient);
+    margin: 30px;
+    cursor: pointer; */
+    width: 75%;
+    padding: 25px;
+    margin: 20px;
+    border-radius: var(--borderRadiusBig);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.562);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--proyectsBackground);
+}
+
+.boxService strong{
+    color: var(--colorBlack);
+}
+
+.boxService p{
+    margin: 10px;
+}

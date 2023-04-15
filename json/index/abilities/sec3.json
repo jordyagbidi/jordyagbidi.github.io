@@ -1,0 +1,46 @@
+{
+    "id": 0,
+    "nameSection": "Tecnologias Web",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "descripcion":"Este json permitira desplegar mi lista de habilidades cargarndo asi unicamente el html necesario en la dom de mi web",
+    "habilidades": [
+        {
+            "content": [
+                {
+                    "section": "Otros",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "link",
+                                "alt": "Html logo"
+                            },
+                            "name": "Name",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "link",
+                                "alt": "Css logo"
+                            },
+                            "name": "Name",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        }
+                    ]
+                },
+                {
+                    "section": "BackEnd",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "link",
+                                "alt": "Php logo"
+                            },
+                            "name": "Name",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

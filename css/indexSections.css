@@ -1,0 +1,137 @@
+/*Importaciones */
+/*Importar fuentes de letras*/
+@import url("fonts.css"); 
+/*Importar variables*/
+@import url("var.css");
+
+/*Secciones *//*index*/
+/*Seccion Sobre mi*/
+
+.imgprofile{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    margin: 20px;
+    box-shadow: var(--imgShadow);
+}
+
+.section1 p{
+    width: 70%;
+    line-height: 25px;
+    padding: 10px;
+    text-align: left;
+    font-size: var(--txtSizep);
+    color: var(--colorBlack1);
+    margin-bottom: 10px;
+    
+}
+
+
+
+/*Seccion Habilidades*/
+/*Seccion 2 apartado de habilidades*/
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.menuSec2{
+    width: auto;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.menuSec2 span{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px;
+    /* background-color: var(--colorRed1);
+    box-shadow: 1px 1px 3px var(--colorYellow1);
+    color: var(--colorWhite) !important; */
+    border-radius: var(--borderRadiusMedium);
+    cursor: pointer;
+    background: var(--blueGradient);
+    box-shadow: 1px 1px 3px var(--colorBlack1);
+    color: var(--colorWhite);
+    transition: 0.5s color,1s background,1s font-size;
+    font-family: var(--txtFamilyImpact);
+}
+
+.menuSec2 span:hover{
+    background:  var(--redGradient);
+    box-shadow: 1px 1px 3px var(--colorYellow1);
+    font-size: var(--txtSizeHover);
+}
+
+/*Clase apartado selecionado*/
+.menuSec2selected{
+    background:  var(--redGradient) !important;
+    box-shadow: 1px 1px 3px var(--colorYellow1)!important;
+}
+
+/*Seccion 2 habilidades*/
+.habilitis{
+    width: auto;
+    height: auto;
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+}
+
+.habilitis, .hability,.hability div, .hability strong, .hability p,.hability img,.section2 h4{
+    animation-duration: 2s;
+    animation-name: animSec2;
+}
+
+
+.hability{
+    display: inline-block;
+}
+.hability div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.hability strong{
+    margin-bottom: 5px;
+    font-size: var(--txtSizeHability);
+}
+
+.hability p{
+    font-size: var(--txtSizeHability) ;
+    color: var(--colorYellow1);
+}
+
+.hability img{
+    width: 110px;
+    height: 110px;
+    border-radius: var(--borderRadiusMedium);
+    margin-bottom: 5px;
+    border-radius: var(--borderRadiusMedium);
+    box-shadow: 1px 2px 3px var(--colorBlack1);
+}
+
+/*animacion de elementos de la seccion 2 */
+@keyframes animSec2 {
+    from {
+        opacity: 0;
+        /* width: 0px;
+        height: 0px; */
+    }
+
+    to {
+        opacity: 1;
+        /* width: auto;
+        height: auto; */
+    }
+}
+
+
+
+

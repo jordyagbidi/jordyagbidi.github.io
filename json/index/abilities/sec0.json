@@ -1,0 +1,163 @@
+{
+    "id": 0,
+    "nameSection": "Tecnologias Web",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "descripcion":"Este json permitira desplegar mi lista de habilidades cargarndo asi unicamente el html necesario en la dom de mi web",
+    "habilidades": [
+        {
+            "content": [
+                {
+                    "section": "Front-End",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/html-5.png",
+                                "alt": "Html logo"
+                            },
+                            "name": "HTML5",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/css-3.png",
+                                "alt": "CSS logo"
+                            },
+                            "name": "CSS3",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/js.png",
+                                "alt": "Css logo"
+                            },
+                            "name": "JAVASCRIPT",
+                            "stars": "&#9733;&#9733;&#9733;&#9733;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/react.png",
+                                "alt": "REACT.JS logo"
+                            },
+                            "name": "REACT.JS",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/phaser.png",
+                                "alt": "PHASER.JS logo"
+                            },
+                            "name": "PHASER.JS",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/ar.png",
+                                "alt": "AR.JS logo"
+                            },
+                            "name": "AR.JS",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/bootstrap.png",
+                                "alt": "BOOTSTRAP logo"
+                            },
+                            "name": "BOOTSTRAP",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/swiper.png",
+                                "alt": "SWIPPER.JS logo"
+                            },
+                            "name": "SWIPPER.JS",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/MetaMask.png",
+                                "alt": "METAMASK logo"
+                            },
+                            "name": "METAMASK API",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        }
+                    ]
+                },
+                {
+                    "section": "BackEnd",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/php.png",
+                                "alt": "Php logo"
+                            },
+                            "name": "PHP",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/node.png",
+                                "alt": "Node logo"
+                            },
+                            "name": "Node js",
+                            "stars": "&#9733;&#9733;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/mongodb.png",
+                                "alt": "Mongodb logo"
+                            },
+                            "name": "MongoDB",
+                            "stars": "&#9733;&#9734;&#9734;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/mysql.png",
+                                "alt": "MSQL logo"
+                            },
+                            "name": "MSQL",
+                            "stars": "&#9733;&#9734;&#9734;&#9734;"
+                        }
+                    ]
+                },
+                {
+                    "section": "CMS - Gestor de contenidos",
+                    "list": [
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/wordpress.png",
+                                "alt": "WORDPRESS"
+                            },
+                            "name": "Wordpress",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/wix.png",
+                                "alt": "Wix logo"
+                            },
+                            "name": "Wix js",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/nextcloud.png",
+                                "alt": "Next cloud logo"
+                            },
+                            "name": "Next Cloud",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        },
+                        {
+                            "img": {
+                                "src": "./media/img/habilidades/moodle.png",
+                                "alt": "Moodle logo"
+                            },
+                            "name": "Moodle",
+                            "stars": "&#9733;&#9733;&#9733;&#9734;"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

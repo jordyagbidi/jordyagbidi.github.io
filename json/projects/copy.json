@@ -1,0 +1,64 @@
+{
+    "nameSection": "Copy",
+    "desarrollador":"Jordy Marion Houidji Agbidi",
+    "autor": "Jordy Marion Houidji Agbidi",
+    "description":"Este json conforma el registro de proyectos que permitira desplegar mis proyectos sin sobre cargar el DOM DE ELEMENTOS",
+    "registroProyectos":[
+        {
+            "id":0,
+            "titulo":"ta misma web",
+            "subtitulo":  "",
+            "portada":{
+                "src":"",
+                "alt":""
+            },
+            "fecha": "",
+            "autor":"",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[],
+            "links":[
+                {
+                    "nameButton":"nameButton",
+                    "href":"link1"
+                }
+            ],
+            "button":["nameButton","url"]
+        },
+        {
+            "id":1,
+            "titulo":"osama Esta misma web",
+            "subtitulo":  "",
+            "portada":{
+                "src":"",
+                "alt":""
+            },
+            "fecha": "",
+            "autor":"",
+            "descripcion":  "",
+            "galeria": [
+                {
+                    "src":"",
+                    "alt":""
+                },
+                {
+                    "src":"",
+                    "alt":""
+                }
+            ],
+            "iframe":[],
+            "button":["nameButton","url"]
+        }
+        
+    ]
+
+}
