@@ -16,7 +16,7 @@ const navId = [
     "contacto"
 ];
 
-const  localhost = "http://127.0.0.1:5501/";
+const  localhost = "https://jordyagbidi.github.io/";
 const locationMenu = [
     localhost+"index.html",
     localhost+"index.html#sec0",
